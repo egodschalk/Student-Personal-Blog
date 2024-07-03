@@ -14,19 +14,25 @@ body {
     background-color: var(--primary);
 }
 
-/* Dark mode background */
-body .dark-mode {
+/* Dark Mode background */
+.dark-body {
     background-color: var(--tertiary);
+    color: var(--primary);
 }
+
+
 
 header {
     text-align: right;
+    justify-content: space-between;
     padding: 2%;
     border-bottom: 2px solid var(--tertiary);
 }
 
-header button .dark-mode {
-    background-color: var(--secondary);
+
+/* Dark Mode border */
+.dark-header {
+    border-bottom: 2px solid var(--primary);
 }
 
 #mode {
@@ -35,14 +41,20 @@ header button .dark-mode {
     padding: 5px 8px 5px 8px;
     border-radius: 30%;
     border: 1px solid var(--secondary);
-    box-shadow: 5px 5px 5px var(--tertiary);
+    box-shadow: 3px 3px 3px var(--tertiary);
+}
+
+/* Dark Mode button style */
+.dark-btn {
+    background-color: var(--secondary);
+    box-shadow: 3px 3px 3px var(--primary);
 }
 
 main {
     display: flex;
 }
 
-.h1form {
+#h1form {
     color: var(--tertiary);
     width: 50%;
     margin: 6%;
@@ -55,7 +67,7 @@ main {
     box-shadow: 5px 5px 5px var(--tertiary);
 }
 
-.form {
+#form {
     display: block;
     background-color: rgb(180, 235, 255);
     justify-content: center;
@@ -68,6 +80,11 @@ main {
     box-shadow: 5px 5px 5px var(--tertiary);
 }
 
+.dark-form {
+    background-color: var(--accent);
+    box-shadow: 5px 5px 5px var(--primary);
+}
+
 h2 {
     font-size: 18pt;
     padding-bottom: 25px;
@@ -78,11 +95,16 @@ input {
     margin-bottom: 10px;
 }
 
-.submit {
+#submit {
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: var(--tertiary);
     box-shadow: 5px 5px 5px var(--tertiary);
     color: var(--primary);
+}
+
+.dark-submit {
+    background-color: var(--accent);
+    color: var(--tertiary);
 }
