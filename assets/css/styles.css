@@ -20,19 +20,16 @@ body {
     color: var(--primary);
 }
 
-
-
 header {
     text-align: right;
     justify-content: space-between;
     padding: 2%;
-    border-bottom: 2px solid var(--tertiary);
+    border-bottom: 5px solid var(--tertiary);
 }
-
 
 /* Dark Mode border */
 .dark-header {
-    border-bottom: 2px solid var(--primary);
+    border-bottom: 5px solid var(--primary);
 }
 
 #mode {
@@ -50,7 +47,7 @@ header {
     box-shadow: 3px 3px 3px var(--primary);
 }
 
-main {
+/* main {
     display: flex;
 }
 
@@ -85,12 +82,6 @@ main {
     box-shadow: 5px 5px 5px var(--primary);
 }
 
-h2 {
-    font-size: 18pt;
-    padding-bottom: 25px;
-    color: var(--tertiary);
-}
-
 input {
     margin-bottom: 10px;
 }
@@ -107,4 +98,4 @@ input {
 .dark-submit {
     background-color: var(--accent);
     color: var(--tertiary);
-}
+} */

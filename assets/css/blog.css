@@ -1,7 +1,29 @@
-h1 {
-    text-align: left;
+body {
+    display: block;
 }
 
-section {
-    
+h1 {
+    text-align: left;
+    font-size: 24pt;
+}
+
+.card {
+    display: block;
+    border: 2px solid var(--tertiary);
+    width: 95%;
+    height: 120px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2.5%;
+
+}
+
+footer {
+    border-top: 5px solid var(--tertiary);
+    width: 100%;
+    padding: 10px;
+}
+
+h3 {
+    text-align: center;
 }
