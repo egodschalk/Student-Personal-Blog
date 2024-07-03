@@ -1,0 +1,88 @@
+:root {
+    --primary: rgb(240, 240, 240);
+    --secondary: rgb(200, 200, 200);
+    --tertiary: rgb(88, 88, 88);
+    --accent: rgb(106, 215, 254);
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    
+}
+
+body {
+    background-color: var(--primary);
+}
+
+/* Dark mode background */
+body .dark-mode {
+    background-color: var(--tertiary);
+}
+
+header {
+    text-align: right;
+    padding: 2%;
+    border-bottom: 2px solid var(--tertiary);
+}
+
+header button .dark-mode {
+    background-color: var(--secondary);
+}
+
+#mode {
+    color: rgb(255, 234, 0);
+    background-color: var(--tertiary);
+    padding: 5px 8px 5px 8px;
+    border-radius: 30%;
+    border: 1px solid var(--secondary);
+    box-shadow: 5px 5px 5px var(--tertiary);
+}
+
+main {
+    display: flex;
+}
+
+.h1form {
+    color: var(--tertiary);
+    width: 50%;
+    margin: 6%;
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    border-radius: 100%;
+    background-image: linear-gradient(to bottom right, salmon, white, var(--accent));
+    box-shadow: 5px 5px 5px var(--tertiary);
+}
+
+.form {
+    display: block;
+    background-color: rgb(180, 235, 255);
+    justify-content: center;
+    width: 50%;
+    flex-wrap: wrap;
+    padding: 3vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-right: 5vh;
+    box-shadow: 5px 5px 5px var(--tertiary);
+}
+
+h2 {
+    font-size: 18pt;
+    padding-bottom: 25px;
+    color: var(--tertiary);
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.submit {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: var(--tertiary);
+    box-shadow: 5px 5px 5px var(--tertiary);
+    color: var(--primary);
+}
