@@ -46,3 +46,12 @@ header {
     background-color: var(--secondary);
     box-shadow: 3px 3px 3px var(--primary);
 }
+
+#back {
+    color: white;
+    background-color: var(--tertiary);
+    font-style: bold;
+    padding: 5px;
+    border: 1px solid var(--secondary);
+    box-shadow: 3px 3px 3px var(--tertiary);
+}

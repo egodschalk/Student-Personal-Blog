@@ -47,7 +47,9 @@ h2 {
 
 #blog-author {
     font-size: smaller;
-    margin: 10px
+    margin: 10px;
+    margin-top: 20px;
+    font-style: italic;
 }
 
 footer {
@@ -63,4 +65,9 @@ footer {
 
 h3 {
     text-align: center;
+}
+
+.links {
+    font-size: smaller;
+    font-style: italic;
 }
