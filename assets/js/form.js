@@ -1,8 +1,8 @@
 // Dark Mode Settings
-const dkForm = document.querySelector('.dkform');
-const dkSubmit = document.querySelector('.dksubmit');
-
 modeEl.addEventListener('click', function() {   
+    const dkForm = document.querySelector('.dkform');
+    const dkSubmit = document.querySelector('.dksubmit');
+
     dkForm.classList.toggle('dark-form');
     dkSubmit.classList.toggle('dark-submit');
 });

@@ -20,7 +20,7 @@ h1 {
     display: block;
     border: 2px solid var(--tertiary);
     width: 95%;
-    height: 120px;
+    min-height: 120px;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 2.5%;

@@ -1,16 +1,13 @@
 // Dark Mode Setting
-const dkCard = document.querySelector('.dkcard');
-const dkH2 = document.querySelector('.dkh2');
-const dkFooter = document.querySelector('.dkfooter');
-
 modeEl.addEventListener('click', function() {
+    const dkCard = document.querySelector('.dkcard');
+    const dkH2 = document.querySelector('.dkh2');
+    const dkFooter = document.querySelector('.dkfooter');
+    console.log("clicked");
     dkCard.classList.toggle('dark-card');
     dkH2.classList.toggle('dark-h2');
     dkFooter.classList.toggle('dark-footer');
 });
-
-
-// back button needed
 
 // Pull in form submissions and create elements
 let blogArray = JSON.parse(localStorage.getItem('blogPost'));
