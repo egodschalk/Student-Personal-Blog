@@ -1,10 +1,19 @@
+:root {
+    --primary: rgb(240, 240, 240);
+    --secondary: rgb(200, 200, 200);
+    --tertiary: rgb(88, 88, 88);
+    --accent: rgb(106, 215, 254);
+}
+
 body {
     display: block;
+    color: var(--tertiary);
 }
 
 h1 {
     text-align: left;
     font-size: 24pt;
+    
 }
 
 .card {
@@ -18,10 +27,38 @@ h1 {
 
 }
 
+.dark-card {
+    border: 2px solid var(--primary);
+}
+
+h2 {
+    border-bottom: 1px solid var(--tertiary);
+    margin: 10px;
+}
+
+.dark-h2 {
+    border-bottom: 1px solid var(--primary);
+}
+
+#blog-content {
+    font-style: italic;
+    margin: 20px;
+}
+
+#blog-author {
+    font-size: smaller;
+    margin: 10px
+}
+
 footer {
     border-top: 5px solid var(--tertiary);
     width: 100%;
     padding: 10px;
+    
+}
+
+.dark-footer {
+    border-top: 5px solid var(--primary);
 }
 
 h3 {
