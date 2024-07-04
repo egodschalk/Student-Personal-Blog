@@ -1,6 +1,6 @@
 # Student-Personal-Blog
 
-The link to my portfolio is: https://egodschalk.github.io/Elizabeth-Portfolio/Links
+The link to my portfolio is: https://egodschalk.github.io/Student-Personal-Blog
 
 The link to the GitHub repo for my portfolio is: https://github.com/egodschalk/Student-Personal-Blog
 
