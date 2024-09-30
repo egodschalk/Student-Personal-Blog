@@ -12,7 +12,8 @@ https://egodschalk.github.io/Student-Personal-Blog
 
 https://github.com/egodschalk/Student-Personal-Blog
 
-Screenshots of the site:
+## Screenshots
+
 ![Form Page](./assets/images/image.png)
 ![Dark Mode](./assets/images/image-1.png)
 ![Blog Page](./assets/images/image-2.png)
