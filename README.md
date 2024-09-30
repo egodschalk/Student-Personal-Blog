@@ -1,8 +1,16 @@
-# Student-Personal-Blog
+# Personal Blog
 
-The link to my deployed site is: https://egodschalk.github.io/Student-Personal-Blog
+## Description
 
-The link to the GitHub repo for this project is: https://github.com/egodschalk/Student-Personal-Blog
+This application is a basic 2-page blog site where a user can enter blog posts and view them on a separate page. It allows for dark mode and light mode. 
+
+## Deployed Site
+
+https://egodschalk.github.io/Student-Personal-Blog
+
+## GitHub Repo
+
+https://github.com/egodschalk/Student-Personal-Blog
 
 Screenshots of the site:
 ![Form Page](./assets/images/image.png)
